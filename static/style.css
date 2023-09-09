@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lilita+One&family=Roboto+Mono:wght@300&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    line-height: 0;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#card {
+    min-width: 410px;
+    min-height: 455px;
+    width: 410px;
+    height: 460px;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#card__profile-pic {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+    position: absolute;
+    top: 104px;
+}
+
+#card__image {
+    width: 100%;
+}
+
+#content-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#user-section {
+    margin-top: 85px;
+    text-align: center;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 55px;
+}
+
+.stats-container {
+    text-align: center;
+}
+
+#username {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    color: hsl(0, 0%, 59%);
+    margin-top: 35px;
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid hsl(0, 0%, 90%);
+}
+
+
+
+
+.stats-text {
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
