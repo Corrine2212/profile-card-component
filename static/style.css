@@ -108,3 +108,22 @@ hr {
     letter-spacing: 2px;
     font-size: 13px;
 }
+
+/* attribution styling */
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: orangered;
+    font-weight: bold;
+}
